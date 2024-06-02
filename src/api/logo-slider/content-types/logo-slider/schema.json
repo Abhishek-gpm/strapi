@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "logo_sliders",
+  "info": {
+    "singularName": "logo-slider",
+    "pluralName": "logo-sliders",
+    "displayName": "LogoSlider",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

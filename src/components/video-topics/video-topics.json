@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_video_topics_video_topics",
+  "info": {
+    "displayName": "VideoTopics"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "discription": {
+      "type": "richtext"
+    },
+    "videoUrl": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_video_videos",
+  "info": {
+    "displayName": "Videos",
+    "icon": "server",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "video": {
+      "type": "customField",
+      "customField": "plugin::video-field.video"
+    }
+  }
+}

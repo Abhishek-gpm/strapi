@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_topics_contents",
+  "info": {
+    "displayName": "Content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "video": {
+      "type": "customField",
+      "customField": "plugin::video-field.video"
+    }
+  }
+}
